@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fef9f9;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff6f91;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.hero button:hover {
+    background-color: #ff6f91;
+    color: white;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.memories {
+    background-color: #fff;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.memory img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.memory p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fad0c4;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.message {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.message h2 {
+    color: #ff6f91;
+    margin-bottom: 20px;
+}
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.audio-player button {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.audio-player button:hover {
+    background-color: #e05670;
+}
+
+.audio-player p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
